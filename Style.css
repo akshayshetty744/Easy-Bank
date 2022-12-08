@@ -1,0 +1,123 @@
+* {
+  margin: 0px;
+  font-family: "Public Sans", sans-serif;
+}
+/* Header */
+.top-header{
+    width: 100%;
+  position: fixed;
+  top: 0%;
+  background-color: white;
+z-index: 3;
+}
+.header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+
+}
+.Header-Container {
+  width: 80%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header-list > li {
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.Header-list > li:hover {
+  border-bottom: 4px solid rgba(0, 0, 0, 0);
+  border-image: linear-gradient(
+    298deg,
+    rgba(43, 183, 218, 1) 6%,
+    rgba(49, 211, 92, 1) 91%
+  );
+  border-image-slice: 1;
+  color:rgb(9, 9, 9);
+}
+.Header-list {
+  list-style: none;
+  width: 35%;
+  height: 100%;
+  color: hsl(233, 8%, 62%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Request-Button {
+  background: rgb(43, 183, 218);
+  background: linear-gradient(
+    298deg,
+    rgba(43, 183, 218, 1) 6%,
+    rgba(49, 211, 92, 1) 91%
+  );
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+.Request-Button:hover{
+     background: linear-gradient(
+    298deg,
+    rgba(43, 183, 218, 0.689) 6%,
+    rgba(49, 211, 92, 0.707) 91%
+  );
+}
+
+/* first main */
+.first-main{
+    width: 100%;
+    height: 90vh;
+    background-color: #FAFAFA;
+    margin-top: 10vh;
+  z-index: -2;
+}
+.first-section{
+    width: 90%;
+    height: 100%;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+.text-title{
+    width: 300px;
+    margin-top: 15% ;
+}
+.next-gen{
+    font-size: 38px;
+    font-weight: 400;
+     margin-bottom: 20px;
+}
+.para{
+    line-height: 20px;
+    font-size: 15px;
+      color: hsl(233, 8%, 62%);
+      font-weight: 300;
+       margin-bottom: 29px;
+    }
+    .img-div{
+        display: flex;
+        justify-content: flex-start;
+        width: 60%;
+        height: 130vh;
+        background-image:url("./images/image-mockups.png"),url('./images/bg-intro-desktop.svg');
+        z-index: 2;
+        background-position-y:-220% , -490%;
+         background-position-x:360% , 10%;
+        background-size: 94% 95% ,  130% 96.1%;
+         background-repeat: no-repeat;
+}
+.g{
+    width: 100%;
+    height: 400px;
+    background-color: blue;
+}
